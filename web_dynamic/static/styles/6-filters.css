@@ -31,12 +31,11 @@ button:hover {
     font-weight: 600;
 }
 .filters h3 {
-    margin-left: 15%;
+    margin-left: 3rem;
     margin-bottom: 0;
     font-weight: 600;
 }
 .filters h4 {
-    margin-left: 15%;
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
@@ -104,4 +103,14 @@ button:hover {
 .amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
+}
+
+
+.amenities .content-text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 2rem;
+    width: 16rem;
+    padding-left: 3rem;   
 }
