@@ -114,3 +114,17 @@ button:hover {
     width: 16rem;
     padding-left: 3rem;   
 }
+
+
+.locations h6{
+    margin:0rem;
+    padding-left: 1rem;
+    line-height:1 rem;
+}
+
+.locations .show-text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:2rem;
+}
